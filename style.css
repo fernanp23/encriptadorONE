@@ -3,8 +3,8 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
+    font-size: 30px;
+    line-height: 100%;
 }
 
 .logo {
@@ -16,7 +16,7 @@
 main {
     display: flex;
     margin-bottom: 10px;
-    margin-left: 180px;
+    margin-left: 150px;
 } 
 
 footer {
@@ -45,10 +45,10 @@ footer {
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 98px;
-    margin-top: 20px;
+    margin-left: 100px;
+    margin-top: 1px;
     padding-left: 20px;
-    position: fixed;
+    position:fixed;
 
 }
 .mensaje:focus {
@@ -57,7 +57,7 @@ footer {
 
 .botones {
     display: flex;
-    margin-top: 18px;
+    margin-top: 5px;
 }
 
 .btn__encriptar {
@@ -89,8 +89,8 @@ footer {
     position: absolute;
     width: 336px;
     height: 67px;
-    margin-left: 120px;
-    margin-top: 565px;
+    margin-left: 100px;
+    margin-top: 380px;
 }
 
 .informacion {
@@ -116,7 +116,7 @@ footer {
     color: #343A40;
     position: fixed;
     margin-top: 300px;
-    margin-left: 120px;
+    margin-left: 100px;
     padding-left: 20px;
     justify-content: center;
 }
@@ -125,8 +125,8 @@ footer {
     font-size: 16px;
     color: #495057;
     position: fixed;
-    margin-top: 360px;
-    margin-left: 108px;
+    margin-top: 340px;
+    margin-left: 90px;
     padding-left: 20px;
     justify-content: center;
 }
