@@ -22,7 +22,7 @@ main {
 footer {
     display: flex;
     justify-content:space-evenly;
-    padding-right: 30px;
+    padding-right: 80px;
     width: 60%;
 }
 
@@ -94,7 +94,7 @@ footer {
 }
 
 .informacion {
-    display:flexbox;
+    display:flex;
     justify-content:flex-start;
 }
 
@@ -130,4 +130,61 @@ footer {
     padding-left: 20px;
     justify-content: center;
 }
+@media screen and (max-width:720px){
 
+    body{
+        display: flex;
+        height: 100%;
+
+    }
+
+    main{
+        gap: 32px;
+        flex-direction: column;
+    }  
+
+    .encriptador{
+        height: 425px;
+    }
+    
+    .botones{
+        width: 85%;
+    }
+
+    .btn__encriptar {
+        width: 85%;
+    }
+    
+    .btn__desencriptar {
+        margin-right: 75%;
+        
+    }
+
+    .btn__copiar {
+        margin-left: 5%;
+        width: 85%;
+    }
+
+
+    .texto1 {
+        width: auto;
+        margin-left: 0%;
+    }
+
+    .texto2 {
+        width: auto;
+        margin-left: 0%;
+    }
+
+    .mensaje {
+        width: auto;
+        margin: 0%;
+    }
+
+    .redes {
+        display: flex;
+        width: auto;
+        margin: 900%;
+        margin-left: 10%;
+    }
+}
