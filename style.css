@@ -134,19 +134,14 @@ footer {
 
     body{
         display: flex;
-        height: 100%;
-
     }
 
     main{
-        gap: 32px;
+        gap: 25px;
         flex-direction: column;
+        justify-content: flex-start;
     }  
 
-    .encriptador{
-        height: 425px;
-    }
-    
     .botones{
         width: 85%;
     }
@@ -185,6 +180,11 @@ footer {
         display: flex;
         width: auto;
         margin: 900%;
-        margin-left: 10%;
+        margin-left: 0%;
     }
+    
+    .restriccion{
+        font-size: 8px;
+    }
+    
 }
