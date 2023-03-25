@@ -47,6 +47,7 @@
 ::placeholder {
     color: var(--texto);
     opacity: 50%;
+
 }
 
 .encriptador__texto:focus{
