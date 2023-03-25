@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,41 +10,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
-<body> 
-    <header>
-        <img class="logo" src="IMG/Logo.png" alt="logo de Alura">
+<body>
+    <header class="header">
+        <img class="header__logo" src="IMG/logo.png">
     </header>
-    <main>
-        <section>
-            <textarea class="text__area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
-            <div class="informacion">
-                <img class="exclamacion" src="IMG/Vector.png" alt="signo de exclamación">
-                <h2 class="restriccion">  Solo letras minúsculas y sin acentos</h2>
-            </div>
-            <div class="botones">
-                <button class="btn__encriptar" onclick="btnEncriptar()">Encriptar</button>
-                <button class="btn__desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+    <main class="main">
+        <section class="encriptador container">
+            <textarea class="encriptador__texto" cols="30" rows="10" placeholder="escriba su mensaje" autofocus></textarea>
+            <img class="exclamacion" src="IMG/Vector.png" alt="signo de exclamacion">
+            <p class="encriptador__disclaimer">Solo letras minúsculas y sin acentos</p>
+            <div class="encriptador__btns">
+                <button class="btn encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
             </div>
         </section>
-        <section>
-            <textarea class="mensaje" cols="20" rows="10"></textarea>
+        <section class="encriptacion container">
+            <textarea id="texto__procesado" class="encriptacion__texto" cols="30" rows="10" ></textarea>
             <div>
                 <h3 class="texto1">Ningún mensaje fue encontrado</h3>
                 <h4 class="texto2">Ingresa el texto que desees encriptar o desencriptar.</h4>
             </div>
-            <div>
-                <button class="btn__copiar" onclick="copiar()">Copiar texto</button>
-            </div>
+            <button id="copiar" class="btn btnCopiar" onclick="copiar()">Copiar</button>
         </section>
     </main>
-    <footer>
-        <div class="redes">
+    <footer class="footer">
+        <div>
             <a href="https://github.com/fernanp23">Github <img src="IMG/github_icon.png"> </a>
             <a href="https://www.linkedin.com/in/fernando-pena-rua/">Linkedin <img src="IMG/linkedin logo_icon.png"></a>
         </div>
+        
     </footer>
-<script src="script.js"></script>
+    <script src="script.js">
+    </script>
 </body>
 </html>
 
