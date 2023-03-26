@@ -1,12 +1,17 @@
-*.encriptacion{
+*{
+    background: #F3F5FC;
+}
+.encriptacion{
     width: 100%;
     padding: 2rem 6% 1rem;
 }
 .encriptacion__texto{
     width: 100%;
+    background-color: #FFFFFF;
     background-image: url(IMG/Muneco.png);
     background-repeat: no-repeat;
     background-position: center;
+    border: none;
     border-radius: 24px;
     min-height: 525px;
     font-size: 2rem;
@@ -42,7 +47,7 @@
     font-size: 2rem;
     text-transform: lowercase;
     font-weight: 300;
-    border-radius: 24px;
+    border: none;
 }
 ::placeholder {
     color: var(--texto);
@@ -85,6 +90,7 @@
     box-sizing: border-box;
     transition: 0.75s;
     min-width: 150px;
+    border-radius: 24px;
 }
 
 .btn:active{
